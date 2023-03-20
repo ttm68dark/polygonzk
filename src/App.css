@@ -1,0 +1,55 @@
+@keyframes menu-in {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(20%);
+  }
+}
+@keyframes menu-out {
+  from {
+    transform: translateY(20%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    /* animation-timing-function: cubic-bezier(0.8, 0, 1, 1); */
+  }
+  50% {
+    transform: translateY(0);
+    /* animation-timing-function: cubic-bezier(0, 0, 0.2, 1); */
+  }
+}
+.down-ef {
+  animation: down 2s infinite;
+}
+
+.hover-ani:hover {
+  transform: translateY(5px);
+  transition: 0.25s ease-in;
+}
+
+.menu-eff-in {
+  animation-name: menu-in;
+  animation-duration: 1s;
+}
+.menu-eff-out {
+  animation-name: menu-out;
+  animation-duration: 1s;
+}
