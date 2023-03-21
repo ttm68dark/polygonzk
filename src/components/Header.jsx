@@ -26,7 +26,7 @@ export default function Header() {
         </div>
 
         {/* mobile  */}
-        <div className="md:hidden flex items-center gap-8">
+        <div className="md:hidden flex items-center gap-8 z-20">
           <img className="cursor-pointer" src="/images/icons/mb-wallet.png" alt="connect" />
           <img
             className="cursor-pointer"

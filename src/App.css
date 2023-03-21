@@ -53,3 +53,8 @@
   animation-name: menu-out;
   animation-duration: 1s;
 }
+
+.bg-clip {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+}

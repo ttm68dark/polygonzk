@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "LucidaConsole";
+  src: local("LucidaConsole"), url(./assets/fonts/LucidaConsole.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Aldrich-Regular";
+  src: local("Aldrich-Regular"), url(./assets/fonts/Aldrich-Regular.ttf) format("truetype");
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 10px;
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b93ab3;
+  /* color of the scroll thumb */
+  border-radius: 10px;
+  /* roundness of the scroll thumb */
+  /* border: 2px solid #da00db; */
+  /* creates padding around scroll thumb */
+}
+::-webkit-scrollbar {
+  width: 6px;
+  display: flex;
+  /* width of the entire scrollbar */
+}
