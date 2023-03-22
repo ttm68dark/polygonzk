@@ -7,6 +7,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       "light-text": "rgba(255, 255, 255, 0.75)",
+      "grey-text": "rgba(255, 255, 255, 0.5)",
       ...colors,
     },
     container: {
@@ -15,6 +16,7 @@ module.exports = {
     fontFamily: {
       LucidaConsole: ["LucidaConsole", "Sans-serif"],
       AldrichRegular: ["Aldrich-Regular", "Sans-serif"],
+      InterMedium: ["Inter-Medium", "Sans-serif"],
       ...fontFamily,
     },
     extend: {
@@ -23,6 +25,7 @@ module.exports = {
         "head2-bg": "url('assets/background/head2-bg.png')",
         "s2-bg": "url('assets/background/s2-bg.png')",
         "s2mb-bg": "url('assets/background/s2-mobile.png')",
+        "s4-bg": "url('assets/background/s4-bg.png')",
         "nav-bg": "url('assets/background/nav-bg.png')",
       },
     },

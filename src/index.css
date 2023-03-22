@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  background-color: #000000;
+}
 
 @font-face {
   font-family: "LucidaConsole";
@@ -9,6 +12,10 @@
 @font-face {
   font-family: "Aldrich-Regular";
   src: local("Aldrich-Regular"), url(./assets/fonts/Aldrich-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: local("Inter-Medium"), url(./assets/fonts/Inter-Medium.ttf) format("truetype");
 }
 
 ::-webkit-scrollbar-track {

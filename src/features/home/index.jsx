@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Header from "../../components/Header"
+import Farm from "./components/Farm"
 import Info from "./components/Info"
 import Trade from "./components/Trade"
 
@@ -43,6 +44,9 @@ export default function Home() {
       </section>
       <section className="flex px-4 md:px-20 justify-center bg-[#000000]">
         <Trade />
+      </section>
+      <section className="bg-[#000000] flex justify-center">
+        <Farm />
       </section>
     </>
   )

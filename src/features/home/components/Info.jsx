@@ -7,7 +7,7 @@ export default function Info() {
         <div>
           <img src="/images/icons/stat-ic.png" alt="stat" />
         </div>
-        <h3 className="text-[38px] md:text-[44px] text-light-text">WHICH SIDE ARE YOU ON?</h3>
+        <h3 className="text-[38px] md:text-[50px] text-light-text">WHICH SIDE ARE YOU ON?</h3>
       </div>
       <div className="flex items-center md:justify-center flex-col md:flex-row gap-14 md:mt-16 mt-4">
         <div className="bg-clip bg-white relative flex h-[200px] w-[280px]">

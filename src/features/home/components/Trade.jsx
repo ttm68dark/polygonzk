@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Trade() {
   return (
-    <div className="w-full rounded-3xl bg-s2mb-bg md:bg-s2-bg bg-cover md:bg-top  md:border-none md:mt-16 md:mb-14 z-10 relative">
+    <div className="w-full rounded-3xl bg-s2mb-bg md:bg-s2-bg bg-cover md:bg-top  md:border-none md:mt-16  z-10 relative">
       <section className="z-2 grid grid-cols-12 text-light-text gap-3 container mt-8 md:mt-[150px] relative">
         <div className="md:col-span-6 col-span-12 flex justify-center items-start">
           <div>
@@ -38,7 +38,7 @@ export default function Trade() {
           </div>
         </div>
       </section>
-      <img src="/images/home/blur-s2.png" className="absolute bottom-0 z-[-1]" alt="line" />
+      <img src="/images/home/blur-s2.png" className="absolute bottom-[-2px] z-[-1]" alt="line" />
     </div>
   )
 }

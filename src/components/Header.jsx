@@ -4,7 +4,7 @@ export default function Header() {
   const [isMenu, setIsMenu] = useState(false)
   const [isClickOffMenu, setIsClickOffMenu] = useState(false)
   return (
-    <header className="container">
+    <header className="container font-LucidaConsole">
       <nav className="flex justify-between px-6 md:px-0">
         <div className="flex gap-4 items-center">
           <div className="mr-10 cursor-pointer">
